@@ -4,11 +4,11 @@ import org.anitha.utils.WaitHelpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class DashBoardPage extends BasePage {
+public class DashboardPage extends BasePage {
 
     WebDriver driver;
 
-    public DashBoardPage(WebDriver driver) {
+    public DashboardPage(WebDriver driver) {
         this.driver = driver;
     }
 
@@ -22,5 +22,3 @@ public class DashBoardPage extends BasePage {
     }
 
 }
-
-
