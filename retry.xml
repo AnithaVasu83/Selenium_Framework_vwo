@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Retry Suite">
+    <listeners>
+        <listener class-name="org.anitha.listeners.RetryListener"/>
+        <listener class-name="org.anitha.listeners.ScreenshotListener"/>
+    </listeners>
+
+
+    <test verbose="2" preserve-order="true" name="retry testing">
+        <classes>
+            <class name="org.anitha.tests.TestVWOLogin04_retry">
+                <methods><include name="testFail"/>
+                    <include name="testPass"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

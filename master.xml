@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="data driven testing" parallel="classes" thread-count="2">
+        <classes>
+            <class name="org.anitha.tests.TestVWOLogin01">
+            <methods>
+                <include name="test_negative_vwo_login"/>
+                <include name="test_positive_vwo_login"/>
+            </methods>
+        </class>
+            <class name="org.anitha.tests.TestVWOLogin02_propertyReader">
+                <methods><include name="test_negative_vwo_login"/>
+                    <include name="testLoginPositiveVWO"/>
+                </methods>
+            </class>
+           <!--
+            <class name="org.anitha.tests.TestVWOLogin03_propertyReader_base">
+                <methods>
+                    <include name="test_negative_vwo_login"/>
+                    <include name="testLoginPositiveVWO"/>
+                </methods>
+            </class>
+            <class name="org.anitha.tests.TestVWOLogin04_retry">
+            <methods><include name="testFail"/>
+                <include name="testPass"/>
+            </methods>
+        </class>-->
+        </classes>
+    </test>
+    </suite>
