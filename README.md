@@ -2,8 +2,6 @@ Java, Selenium, TestNG
 
 Maven, AssertJ, POM
 
-Thread Local Support → Thread Safety
-
 Allure Report
 
 Excel Sheet for Test Data → Data Provider
