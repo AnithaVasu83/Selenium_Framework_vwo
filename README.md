@@ -1,4 +1,4 @@
-🔍 Selenium TestNG Automation Framework
+#🔍 Selenium TestNG Automation Framework
  
 This is a Java-based Selenium Test Automation Framework built with best practices like Page Object Model (POM), TestNG, Data-Driven Testing, and reporting via Allure.
 
