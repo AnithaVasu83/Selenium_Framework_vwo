@@ -17,7 +17,7 @@ This project is a structured Selenium TestNG automation framework built using:
 - Retry logic using `IRetryAnalyzer` and custom listeners
 - Easily extensible with new test cases and page classes
 
-###🧪 Sample Test Scenarios
+### 🧪 Sample Test Scenarios
 
 - Valid Login using data from Excel
 - Negative Login with wrong credentials
